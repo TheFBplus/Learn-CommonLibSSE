@@ -1,7 +1,7 @@
 This is a basic plugin template for use with CommonLibSSE
 
 ## Requirements
-* [CM](https://cmake.org/)
+* [CMake](https://cmake.org/)
 	* Add this to your `PATH`
 * [PowerShell](https://github.com/PowerShell/PowerShell/releases/latest)
 * [Vcpkg](https://github.com/microsoft/vcpkg)
