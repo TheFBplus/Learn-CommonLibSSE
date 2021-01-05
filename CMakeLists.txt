@@ -7,7 +7,7 @@ set(VCPKG_TARGET_TRIPLET "x64-windows-static" CACHE STRING "")
 # ---- Project ----
 
 project(
-	ExampleProject
+	TestSDF
 	VERSION 1.0.0
 	LANGUAGES CXX
 )
@@ -120,11 +120,16 @@ find_package(spdlog REQUIRED)
 
 set(headers
 	src/PCH.h
+	src/version.h
+	src/include/SDFix_DataHandler.h
+	src/include/SDFix_Events.h
+	src/include/SDFix_Functions.h
 )
 
 set(sources
 	src/main.cpp
 	src/PCH.cpp
+	src/src/SDFix_Events.cpp
 )
 
 source_group(
